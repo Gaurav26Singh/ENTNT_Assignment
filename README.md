@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# ENTSync - Calendar Application for Communication Tracking
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**ENTSync** is a **React-based Calendar Application** designed to efficiently track and manage communications with companies. The application provides a centralized platform for logging past interactions, scheduling future communications, and ensuring consistent follow-ups.
 
-## Available Scripts
+This project is a **frontend-only** application built using React. It does not include a backend server and relies on mock data or static JSON for demonstration purposes.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### Admin Module
+1. **Company Management**:
+   - Add, edit, or delete companies.
+   - Store details such as name, location, LinkedIn profile, emails, phone numbers, comments, and communication periodicity.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Communication Method Management**:
+   - Define and customize communication methods.
+   - Manage sequences and mandatory flags for communication steps (e.g., LinkedIn post, email).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Module
+1. **Dashboard**:
+   - View company details and recent communication logs.
+   - Highlight overdue or due communications with color-coded indicators (red for overdue, yellow for today).
+   - Log communications with detailed notes and track their statuses.
 
-### `npm test`
+2. **Notifications**:
+   - Displays overdue and due communications via grids and notification badges.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Calendar View**:
+   - View past and upcoming communications using a calendar interface.
 
-### `npm run build`
+### Additional Features
+- Hover tooltips for displaying communication notes.
+- Interactive grid for managing and logging communication actions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+- **React**: Basic knowledge of React is recommended to customize or extend the app.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
